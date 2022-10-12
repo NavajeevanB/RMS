@@ -12,7 +12,6 @@ public class Members {
 	private LocalDateTime join_date;
 	
 	public Members() {
-		// TODO Auto-generated constructor stub
 	}
 
 }

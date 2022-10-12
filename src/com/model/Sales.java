@@ -14,7 +14,6 @@ public class Sales {
 	private String product_id;
 	
 	public Sales() {
-		// TODO Auto-generated constructor stub
 	}
 
 }

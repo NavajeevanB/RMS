@@ -12,7 +12,6 @@ public class Menu {
 	private double price;
 
 	public Menu() {
-		// TODO Auto-generated constructor stub
 	}
 
 }

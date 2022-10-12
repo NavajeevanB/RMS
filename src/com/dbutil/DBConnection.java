@@ -11,17 +11,16 @@ public class DBConnection {
 		final String URL = "jdbc:mysql://localhost:3306/rms_db?useSSL=false";
 		
 		try {
-			System.out.println("Connecting to database :" +URL);
-            Connection myCon = DriverManager.getConnection(URL,USERNAME,PASSWORD);
-
+			Connection myCon = DriverManager.getConnection(URL,USERNAME,PASSWORD);
             System.out.println("Connection Successful...!");
+            
             //Statement insertS = myCon.createStatement();
             
             //String customers = "INSERT INTO `rms_db`.`customers`(customer_id,`customer_name`,`gender`,`email`,`mobile`,`address`) VALUES(\"03\", \"NJ\", \"Male\", \"nj@email.com\", 9876543210, \"No.1, Nethagi nagar, Kulithalai, karur-639001\")";
             
             //insertS.addBatch(customers);
             
-            //String menu = "INSERT INTO `rms_db`.`menu`(`product_id`,`product_name`,`price`) VALUES(\"04\",\"Burger\",7.50)";
+            //String menu = "INSERT INTO `rms_db`.`menu`(`product_id`,`product_name`,`price`) VALUES(\"05\",\"Fried Rice\",12.50)";
             
             //insertS.addBatch(menu);
             
@@ -38,15 +37,12 @@ public class DBConnection {
             myCon.close();
 			
 		} catch (Exception e) {
-			// TODO: handle exception
-			e.printStackTrace();
 			System.out.println(e);
 		}
 		
 	}
 	
 	public DBConnection() {
-		// TODO Auto-generated constructor stub
 		
 	}
 
