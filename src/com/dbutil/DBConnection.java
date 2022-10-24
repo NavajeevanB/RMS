@@ -33,7 +33,30 @@ public class DBConnection {
             //insertS.addBatch(sales);
             
             //insertS.executeBatch();
-
+            
+//            Statement procedureStatement = myCon.createStatement();
+//            
+//            String dropQuery = "DROP PROCEDURE IF EXISTS RMS_DB.CREATE_TABLE;";
+//            
+//            String createQuery = "CREATE PROCEDURE rms_db.create_table()\r\n"
+//            		+ "begin\r\n"
+//            		+ "	CREATE TABLE IF NOT EXISTS DEPARTMENT(\r\n"
+//            		+ "		DEPARTMENT_ID DECIMAL(4,0) NOT NULL DEFAULT 0,\r\n"
+//            		+ "		DEPARTMENT_NAME VARCHAR(30) NOT NULL DEFAULT 'NULL',\r\n"
+//            		+ "		MANAGER_ID DECIMAL(6,0) NOT NULL DEFAULT 0,\r\n"
+//            		+ "		LOCATION_ID DECIMAL(4,0) NOT NULL DEFAULT 0,\r\n"
+//            		+ "		PRIMARY KEY(DEPARTMENT_ID,MANAGER_ID)\r\n"
+//            		+ "	);\r\n"
+//            		+ "END";
+//            
+//            procedureStatement.execute(dropQuery);
+//            
+//            System.out.println("Dropped existing procedures");
+//            
+//            procedureStatement.execute(createQuery);
+//            
+//            System.out.println("Procedure Created in DB");
+            
             myCon.close();
 			
 		} catch (Exception e) {
