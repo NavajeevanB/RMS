@@ -1,4 +1,4 @@
-package com.gui;
+package com.nj.rms.view;
 
 import java.awt.EventQueue;
 

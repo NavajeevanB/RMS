@@ -1,4 +1,4 @@
-package com.model;
+package com.nj.rms.model;
 
 import java.time.LocalDateTime;
 

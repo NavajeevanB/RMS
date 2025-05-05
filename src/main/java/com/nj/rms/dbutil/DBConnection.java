@@ -1,4 +1,4 @@
-package com.dbutil;
+package com.nj.rms.dbutil;
 
 import java.sql.*;
 
