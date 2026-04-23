@@ -4,6 +4,7 @@ import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.io.Serial;
+import java.util.Arrays;
 
 public class ViewCustomer extends JFrame {
 
